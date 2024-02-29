@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 3px;
+}
+.navbar{
+    margin-top: 33px;
+     display: flex;
+     width: 80%;
+     justify-content:space-between ;
+     margin-left:100px;
+     align-items: center;
+
+}
+h1{
+    font-size:xx-large;
+}
+.name{
+    color: rgba(255, 180, 31, 0.994);
+}
+.ul-list{
+display: inline-block;
+margin: 10px 20px;
+
+}
+a{
+    color: black;
+    text-decoration:none ;
+    font-weight: bold;
+}
+a:hover{
+    color: crimson;
+}
+.content{
+    margin-left: 8%;
+    margin-top: 300px;
+}
+.content h2{
+    font-size: 53px;
+}
+.content p{
+    padding: 20px;
+    font-weight: bold ;
+    font-size: xx-large;
+}
+.content a{
+    margin-left: 100px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.imge{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.images{
+    position:absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    
+}
+.imge:hover #girl{
+    left: 40%;
+}
+.imge:hover #shadow{
+    bottom: 50px;
+}
+.dv-about {
+    margin:300px;
+}
+.dv-about p{
+    padding: 10px;
+    font-weight:bold;
+}
+.edu{
+    padding: 10px;
+}
+.year{
+    margin: 150px;
+}
+.degree{
+    width: 80%;
+    height: 50px;
+    background-color:azure;
+}
+.yr{
+    margin: 360px;
+}
+.bca{
+    padding: 20px;
+    font-weight: bold;
+}
+.twelve{
+    font-weight: bold;
+
+    padding: 20px;
+}
+.ten{
+    font-weight: bold;
+
+    padding: 20px;
+}
+.dv-skills{
+    margin-top: -250px;
+    margin-left: 50px;
+    
+}
+.dv-skills li{
+    list-style: none;
+    
+}
+.dv-skills h1{
+    margin-left:50px ;
+}
+.sk-list{
+    width: 80%;
+    height: 20px;
+    background-color:rgba(255, 180, 31, 0.994);
+    padding: 9px;
+    margin: 10px;
+}
+.dv-contact {
+    
+margin-left:30%;
+margin-top: 50px;
+}
+.dv-contact h1{
+    margin-left:70px ;
+}
+.iconset{
+    margin-top: 30px;
+    display:flex;
+    
+
+}
+.icon{
+
+    width:50px ;
+    height: 50px;
+    /*border: 1px solid;*/
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+
+}
+.icon i{
+    font-size: 25px;
+    
+}
+.icon:hover{
+background-image: linear-gradient(to top left,rgb(225,98,0),yellow);
+}
+footer{
+    margin: 50px 0px;
+}
+footer p{
+    
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: -350px;
+    text-align: center;
+    
+}
+.last{
+
+    float: right;
+    width:50px ;
+    height: 50px;
+    /*border: 1px solid;*/
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+    background-image: linear-gradient(to top left,rgb(225,98,0),yellow);
+}
+.last:hover i{
+    color: aliceblue;
+}
